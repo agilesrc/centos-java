@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:latest
 
 MAINTAINER "AgileSrc LLC" <support@agilesrc.com>
 
