@@ -1,8 +1,8 @@
-FROM centos:latest
+FROM centos:7
 
 MAINTAINER "AgileSrc LLC" <support@agilesrc.com>
 
-ENV	JAVA_VERSION=1.8.0
+ENV	JAVA_VERSION=1.7.0
 
 RUN yum update -y
 RUN yum install -y java-${JAVA_VERSION}-openjdk-devel
