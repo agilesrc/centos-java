@@ -14,7 +14,7 @@ ENV HOME /root
 # Define working directory.
 WORKDIR /root
 
-ENV	JAVA_HOME=/usr/lib/jvm/java-${JAVA_VERSION}-openjdk.x86_64/
+ENV	JAVA_HOME=/usr/lib/jvm/java-${JAVA_VERSION}-openjdk/
 
 # Define default command.
 CMD ["bash"]
